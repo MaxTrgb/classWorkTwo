@@ -1,0 +1,80 @@
+.single {
+    margin-bottom: 26px;
+    width: 286px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #4DAF8A;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    
+}
+.single div{
+    background-image: url(/assets/5eda08da7492ea6fcde0aec01e5d26ea\ 1.png);
+    width: 286px;
+    height: 267px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.single img {
+    width: 286px;
+    height: 267px;
+    flex-shrink: 0;
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+
+}
+
+.single h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 252px;
+    right: 68px;
+    bottom: 46px;
+    left: 69px;
+}
+
+.single h6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 280px;
+    right: 73px;
+    bottom: 24px;
+    left: 80px;
+    position: absolute;
+}
+.hero__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 0 180px;
+}
+@media screen and (max-width: 980px) {
+    .container{
+        margin: 0 100px;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .hero__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .single{
+        width: 100%;
+    }
+}
